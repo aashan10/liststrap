@@ -16,7 +16,7 @@ jobs:
       - name: Bundle
         id: bundle
         run: |
-             zip -r liststrap.zip
+             zip -r liststrap.zip .
 
       - name: Publish to SVN
         id: publish
